@@ -1,0 +1,124 @@
+body{
+    width:90vw;
+    margin:0 auto;
+}
+.header{
+    display:grid;
+    grid-template-columns: 30% 70%;
+}
+.header img{
+    width:25vw;
+}
+.navigation{
+    justify-self: center;
+    align-self: center;
+}
+.header button{
+    border-radius: 0.5vw;
+    width:10vw;
+    height: 2vw;
+    background-color: 	#E5E5E7;
+}
+.container1{
+    margin-top:10vw;
+    background-color: #C0D4DA;
+    width:90vw;   
+    position:relative;
+
+}
+.container1 .rowimage{  
+    border-radius:50%;    
+}
+.rowimages{
+    display:grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    width:40vw;
+    position: absolute;
+    margin: -25px 2px;
+}
+.container1 .text{
+    width:60vw;
+    text-align: left;
+    padding: 9vw 2vw;
+    margin-top:10vw;
+}
+#smiling-man{
+    position: absolute;
+    margin: -37vw 55vw;
+}
+body .column {
+    float: left;
+    height: 300px; 
+    margin:0 0 0 0;
+    border:5px;
+    width:32%;
+    font-size: 15px;
+    
+  }
+  
+  body .row:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  Content{
+    text-align: left;
+  }
+  content div .column img{
+    padding:auto;
+  
+  }
+  hr { 
+    border: 0;
+    height: 1px;
+    background: #333;
+    border-bottom:1px dashed #ccc;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  
+  }
+  content .row #column1 hr{
+    border-bottom:1px dashed #ccc;
+    float:left;
+    width:300px;
+  
+  } 
+  content .row #column2 hr{
+    border-bottom:1px dashed #ccc;
+    width:450px;
+    float:left;
+  
+  } 
+  
+  content .row #column3 hr{
+    border-bottom:1px dashed white ;
+    width:400px;
+    float:left;
+  
+  } 
+  
+  content p{
+    opacity: 0.5;
+  }
+  .footer{
+      display: grid;
+      grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+      background-color: 	#F5F5F5;
+      margin-top:7vw;
+      padding-left:2vw;
+  }
+  .copyright{
+      text-align: center;
+      background-color:#F5F5F5;
+      margin:0;
+      padding-top:2vw;
+  }
+  /* .footer .column {
+    float: center;
+    width: 20%;
+    padding: 10px;
+    height: 225px;
+    margin: 300px 0 0 0;
+    background-color: silver;
+    text-align: center;
+   } */
